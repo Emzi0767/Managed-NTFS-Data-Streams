@@ -1,5 +1,5 @@
 # Managed NTFS Data Streams
-An Win32 API wrapper, enabling support for NTFS Alternate Data Streams within .NET Standard and .NET Core. 
+A Win32 API wrapper, enabling support for NTFS Alternate Data Streams within .NET Standard and .NET Core. 
 
 As the library is built around Win32 P/Invoke, platforms other than Windows are not supported. Furthermore, as the APIs 
 used are specific to Windows versions no less than Vista, this library will not run under Windows XP. Lastly, the 
