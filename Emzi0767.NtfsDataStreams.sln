@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emzi0767.NtfsDataStreams", "Emzi0767.NtfsDataStreams\Emzi0767.NtfsDataStreams.csproj", "{95EBF9BE-1338-4F71-813E-B456B758175C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emzi0767.NtfsDataStreams.Test", "Emzi0767.NtfsDataStreams.Test\Emzi0767.NtfsDataStreams.Test.csproj", "{1CAB54D2-9087-450D-9DBE-E8BB0C395AF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95EBF9BE-1338-4F71-813E-B456B758175C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95EBF9BE-1338-4F71-813E-B456B758175C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95EBF9BE-1338-4F71-813E-B456B758175C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95EBF9BE-1338-4F71-813E-B456B758175C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAB54D2-9087-450D-9DBE-E8BB0C395AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAB54D2-9087-450D-9DBE-E8BB0C395AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAB54D2-9087-450D-9DBE-E8BB0C395AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAB54D2-9087-450D-9DBE-E8BB0C395AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {244D75AF-1750-41BF-82F1-38E861C30DAC}
+	EndGlobalSection
+EndGlobal
