@@ -1,4 +1,21 @@
-﻿using System.IO;
+﻿// This file is part of Managed NTFS Data Streams project
+//
+// Copyright 2020 Emzi0767
+// 
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+// 
+//   http://www.apache.org/licenses/LICENSE-2.0
+// 
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+using System;
+using System.IO;
 using System.Text;
 
 namespace Emzi0767.NtfsDataStreams
@@ -6,7 +23,7 @@ namespace Emzi0767.NtfsDataStreams
     /// <summary>
     /// Contains information about an existing NTFS Data Stream, as well as common IO operations.
     /// </summary>
-    public sealed class NtfsDataStream
+    public sealed class FileDataStream
     {
         /// <summary>
         /// Gets the file this data stream is associated with.
@@ -26,10 +43,16 @@ namespace Emzi0767.NtfsDataStreams
         /// <summary>
         /// Gets the type of this stream.
         /// </summary>
-        public NtfsDataStreamType Type { get; }
+        public FileDataStreamType Type { get; }
 
-        internal NtfsDataStream(FileInfo file, string name, long length, NtfsDataStreamType type)
+        internal FileDataStream(FileInfo file, string name, long length, FileDataStreamType type)
         {
+            if (file == null)
+                throw new ArgumentNullException(nameof(file));
+
+            if (name == null)
+                throw new ArgumentNullException(nameof(name));
+
             this.File = file;
             this.Name = name;
             this.Length = length;

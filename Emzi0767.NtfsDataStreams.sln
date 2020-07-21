@@ -5,7 +5,14 @@ VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emzi0767.NtfsDataStreams", "Emzi0767.NtfsDataStreams\Emzi0767.NtfsDataStreams.csproj", "{95EBF9BE-1338-4F71-813E-B456B758175C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emzi0767.NtfsDataStreams.Test", "Emzi0767.NtfsDataStreams.Test\Emzi0767.NtfsDataStreams.Test.csproj", "{1CAB54D2-9087-450D-9DBE-E8BB0C395AF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emzi0767.NtfsDataStreams.Test", "Emzi0767.NtfsDataStreams.Test\Emzi0767.NtfsDataStreams.Test.csproj", "{1CAB54D2-9087-450D-9DBE-E8BB0C395AF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D3929832-079D-496B-B3E6-85656A41047F}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.TXT = LICENSE.TXT
+		NOTICE.TXT = NOTICE.TXT
+		README.MD = README.MD
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
